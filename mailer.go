@@ -27,7 +27,7 @@ type Mailer struct {
 // ConfigMailer - config structure for sending email.
 type ConfigMailer struct {
 	From     string
-	NameFrom string00
+	NameFrom string
 	Pass     string // Pass is sendgrid api key.
 
 	MinRetryDelay time.Duration
